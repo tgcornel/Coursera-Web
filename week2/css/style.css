@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+section {
+	border: 1px solid black;
+	margin: 0.5%;
+	box-sizing: border-box;
+}
+#food1, #food2, #food3 {
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	float: right;
+	width: 160px;
+	box-sizing: border-box;
+	margin: -1px -1px 10px 0px;
+
+}
+#food1 {
+  background-color: pink;
+}
+#food2 {
+  color: white;
+  background-color: red;
+}
+#food3 {
+  background-color: yellow;
+}
+#s1, #s2, #s3 {
+	background-color: rgb(200,200,200);
+
+}
+#foodtxt {
+  clear: right;
+  margin: 10px;
+
+}
+@media (min-width: 992px) {
+  #s1 {
+  	width: 32.33%;
+  	float: left;
+  }
+  #s2 {
+  	width: 32.33%;
+  	float: left;
+  }
+  #s3 {
+  	width: 32.33%;
+  	float: left;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #s1 {
+  	width: 49%;
+  	float: left;
+  }
+  #s2 {
+  	width: 49%;
+  	float: left;
+  }
+  #s3 {
+  	width: 99%;
+  	float: left;
+  }
+}
+@media (max-width: 767px) {
+  #s1 {
+    width: 99%;
+    margin-bottom: 10px;
+  }
+  #s2 {
+    width: 99%;
+    margin-bottom: 10px;
+  }
+  #s3 {
+    width: 99%;
+  }
+}
